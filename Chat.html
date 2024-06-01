@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashborad</title>
+    <style>
+      .item-row1{
+        height: 860px;
+      }
+        .item-row2 img{
+            border-radius: 500px;
+            border: none;
+            box-sizing: border-box;
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p, h3{
+            text-align: center;
+        }
+        .et-profile{
+            color: white;
+            margin: 0 auto;
+            width: 55%;
+            height: 35px;
+            background-color: aqua;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 17px;
+        }
+        .et-profile:hover{
+             background-color: red;
+        }
+        .Pr-menu{
+            padding-left: 10px;
+            width: 100%;
+            height: 40px;
+            text-align:left;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 40px;
+        }
+        .active{    
+            background-color: aqua;
+            line-height: 40px;
+            color: white;
+        }
+        .pr-fa-user{
+            font-size:18px ;
+        }
+        .Pr-menu:hover{
+          background-color: aqua;
+        }
+        h4{
+          font-size: 20px;
+          padding-bottom: 5px;
+          box-shadow: 0px 1px 1px rgb(221, 220, 218);
+        }
+        .my-ad-title{
+          font-size: 18px;
+          line-height: 50px;
+          display: flex;
+          justify-content: space-around;
+          height: 50px;
+          width: 100%;
+          box-shadow: 0px 0px 5px rgb(221, 220, 218);
+        }
+        .my-ad-title li{
+          list-style: none;
+        }
+        .my-ad-title2{
+          display: flex;
+          height: 170px;
+          width: 100%;
+        }
+        .my-ad-r1{
+           box-sizing: border-box;
+           padding: 15px;
+           height: 100%;
+           width: 25%;
+        }
+        .my-ad-r1 img{
+          transition: 0.80s;
+          padding: 10px;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .my-ad-r1 img:hover{
+          transform: scale(1.05);
+          transition: 0.80s;
+        }
+        .my-ad-r1 p{
+          text-align: left;
+          line-height: 10px;
+          padding-left: 10px;
+        }
+        .delete{
+          color: red;
+         line-height: 170px;
+         font-size: 20px;
+        }
+        .r2{
+              box-sizing: border-box;
+              padding-left: 85px;
+        }
+    </style>
+</head>
+<body>
+    <!-- -----header-nav----- -->
+    <div class="header-section">
+        <div id="nav">
+              <div class="logo"><a href="index.html"><img src="images/Classify (1)c.png" alt="logo" srcset=""></a></div>
+              <div class="user-login"></div>
+              <div class="user-login"></div>
+              <div class="user-login"><a href="index.html">Home</a></div>
+              <div class="user-login"><a href="">All Ads</a></div>
+              <div class="user-login"><a href="">Stores</a></div>
+              <div class="user-login"><a href="">Blogs</a></div>
+              <div class="user-login"><a href="">Join Us</a></div>
+              <div class="user-login"><a href="">FAQ</a></div> 
+              <div class="user-login"><a href="">Contact</a></div>
+              <div class="user-login"><a href="">About</a></div>
+              <div class="user-login"></div>
+              <div class="chat"><a href="#"><i class="fa-solid fa-comments"></a></i></div>
+              <div class="user-login"><a href="#"><i class="fa-solid fa-user"></a></i></div>
+              <div class="sell-product-btn"><a href="Login.html"><i class="fa-solid fa-plus"></i>Sell Products</a></div>
+        </div>
+      </div>
+      <!----------- item-image section  ---------------- -->
+      <div class="item-bg">
+            <div class="item-col">
+                <div class="item-row2">
+                    <img src="images/U-profil1.jpg " alt="">
+                    <h3>Nirmit Maurya</h3>
+                    <p>Joined November  23, 2023</p>
+                <a href="user-profile-form.html"><div class="et-profile">Edit Profile</div></a>
+                 <a href="Dashboard.html">
+                <p class="Pr-menu "><i class="fa-solid fa-user  " style="color: #030303;"></i>My Ads</p>
+                 </a>
+                 <p class="Pr-menu"><i class="fa-solid fa-bookmark" style="color: #000000;"00></i>Favorite Ads</p>
+                <p class="Pr-menu"><i class="fa-solid fa-file-zipper" style="color: #000000;"></i>Pending Approval</p>
+                <p class="Pr-menu active"><i class="fa-solid fa-message pr-fa-user" style="color: #ffffff;"></i>Messages</p>
+                <p class="Pr-menu"><i class="fa-solid fa-gear" style="color: #000000;"></i>Logout</p>
+                <p class="Pr-menu"><i class="fa-solid fa-trash" style="color: #000000;"></i>Delete Account</p>
+                </div>
+            <div class="item-row1">  
+             <iframe height="100%" style="width: 100%;" scrolling="no" title="Swanky Chatbox V2" src="chatframe.html" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+            </div>
+</iframe>
+            </div>
+            </div>
+      </div>
+       <!------- Footer-Section----- -->
+  <div class="footer-section">
+      <div id="main-footer">
+        <div class="footer">
+          <div class="f-logo">
+          Clazzify
+          </div>
+          <div class="f-description">
+            <p>Clazzify a Largest Classified Listing  Marketplace offers perfect Ads classified to sell  your own products.</p>
+          </div>
+          <div class="f-social">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+             <a href=""> <i class="fa-brands fa-square-instagram"></i></a> 
+            <a href=""><i class="fa-brands fa-square-youtube"></i></i></a> 
+             <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+             <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer">
+          <h2>How to Sell Fast?</h2>
+          <hr>
+          <ol>
+            <a href="Selling Tips.html"><li>Selling Tips</li></a>
+            <a href=""><li>Buy and Shell</li></a>
+            <a href="Membership.html"><li>Membership</li></a>
+            <a href=""><li>Banner Advertising</li></a>
+            <a href=""><li>Promote Your Ad</li></a>
+          </ol>
+        </div>
+        <div class="footer"><h2>Information</h2>
+          <hr>
+          <ol>
+            <a href=""><li>Company & Contact Info</li></a>
+            <a href=""><li>Blog & Articles</li></a>
+            <a href=""><li>Sitemap</li></a>
+            <a href=""><li>Terms of Services</li></a>
+            <a href=""><li>Privacy Policy</li></a>
+          </ol>
+        </div>
+        <div class="footer"><h2>Help & Support</h2>
+         <hr>
+         <ol>
+          <a href=""><li>Live Chat</li></a>
+          <a href=""><li>FAQ</li></a>
+          <a href=""><li>How to Stay Safe?</li></a>
+          <a href=""><li>Terms & Conditions</li></a>
+          <a href=""><li>Contact Us</li></a>
+        </ol>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      © Copyright Clazzify 2023. Designed and Developed by <a href=""> Suresh Kumar</a> <i class="fa-solid fa-code"></i>
+    </div>
+      <script src="css/JavaScript.js"></script>
+</body>
+</html>
